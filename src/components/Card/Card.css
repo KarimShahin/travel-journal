@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.25rem;
+    color: #2B283A;
+}
+
+.card-image {
+    width: 180px;
+    max-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 0.75;
+    border-radius: 1em;
+}
+
+.card-body {
+    padding: 1em;
+}
+
+.location {
+    display: flex;
+    gap: 2em;
+    margin-block-end: 0.5em;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.maps-link {
+    color: #918E9B
+}
+
+.card-title {
+    margin-block-end: 0.6em;
+}
+
+.card-date {
+    font-weight: 300;
+    margin-block-end: 0.75em;
+}
+
+.card-description {
+    font-size: 0.8em;
+}
